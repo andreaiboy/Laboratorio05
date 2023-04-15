@@ -10,7 +10,7 @@ namespace Laboratorio05
     {
         private Random random;
 
-        internal RandomGenerator() 
+        internal RandomGenerator()
         {
             random = new Random();
         }
