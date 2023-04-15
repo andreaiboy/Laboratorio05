@@ -18,7 +18,9 @@ namespace Laboratorio05
         public static Information GetInformation()
         {
             if (Instance == null)
-                Instance = new Information("Andrea Gabriela Iboy Casados", "1076623", "04");
+                Instance = new Information("Andrea Gabriela Iboy Casados", "1076623", "04"
+                                           "Ana Lucía Chávez Penagaos", "1067423", "04" 
+                                           "Eduardo David Hernández Girón", "1156823", "04");
 
             return Instance;
         }
