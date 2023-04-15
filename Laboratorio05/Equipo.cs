@@ -19,10 +19,8 @@ namespace Laboratorio05
             if (partidosEmpatados + partidosGanados + partidosPerdidos != 3 ||
                 golesFavor <0 || golesContra < 0)
                     {
-                throw new Exception("Revise el equipo. La sumatoria de partidos debe ser " +
-                    "igual a 3 y los goles anotados y a favor deben ser mayores o iguales a " +
-                    "cero.");
-                    }
+                throw new Exception("Revise el equipo. La sumatoria de partidos debe ser igual a 3 y los goles anotados y a favor deben ser mayores o iguales a cero.");
+            }
             this.Nombre = nombre;
             this.PartidoGanados= partidosGanados;
             this.PartidoEmpatados= partidosEmpatados;
@@ -60,5 +58,5 @@ namespace Laboratorio05
         {
             return this.GolesContra;
         }
-    }
+    
 }
